@@ -1,0 +1,146 @@
+{
+  "info": {
+    "_postman_id": "c09cd976-bac0-4069-9a90-d3de07f0fc2b",
+    "name": "Student",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49301084",
+    "_collection_link": "https://go.postman.co/collection/49301084-c09cd976-bac0-4069-9a90-d3de07f0fc2b?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GetRequest",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "    {\r\n      \"id\": 3,\r\n      \"name\": \"Sneha Verma\",\r\n      \"age\": 23,\r\n      \"course\": \"MCA\",\r\n      \"branch\": \"Software Engineering\",\r\n      \"email\": \"sneha@gmail.com\",\r\n      \"phone\": \"9876512345\",\r\n      \"city\": \"Delhi\",\r\n      \"skills\": [\"Selenium\", \"Python\", \"Automation\"],\r\n      \"isPlaced\": true\r\n    }"
+        },
+        "url": {
+          "raw": "http://localhost:4000/students",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "students"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUTRequest",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "    {\r\n      \"id\": 3,\r\n      \"name\": \"Sneha Tiwari\",\r\n      \"age\": 21,\r\n      \"course\": \"BCA\",\r\n      \"branch\": \"Software tester\",\r\n      \"email\": \"sneha1@gmail.com\",\r\n      \"phone\": \"9876511345\",\r\n      \"city\": \"Kolkata\",\r\n      \"skills\": [\"Playwrite\", \"Python\", \"Automation\"],\r\n      \"isPlaced\": true\r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/students/Q9fIseXEMKQ",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "students",
+            "Q9fIseXEMKQ"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POSTRequest",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "    {\r\n      \"id\": 3,\r\n      \"name\": \"Sneha Verma\",\r\n      \"age\": 23,\r\n      \"course\": \"MCA\",\r\n      \"branch\": \"Software Engineering\",\r\n      \"email\": \"sneha@gmail.com\",\r\n      \"phone\": \"9876512345\",\r\n      \"city\": \"Delhi\",\r\n      \"skills\": [\"Selenium\", \"Python\", \"Automation\"],\r\n      \"isPlaced\": true\r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:4000/students",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "students"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "DELETERequest",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:4000/students/Q9fIseXEMKQ",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "4000",
+          "path": [
+            "students",
+            "Q9fIseXEMKQ"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GETRequestOne",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/students/101",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "students",
+            "101"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

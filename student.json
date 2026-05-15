@@ -1,0 +1,108 @@
+{
+  "students": [
+    {
+      "id": "101",
+      "name": "Arpita Bajpai",
+      "age": 24,
+      "course": "B.Tech",
+      "branch": "Computer Science",
+      "email": "arpita@example.com",
+      "skills": [
+        "Python",
+        "Pytest",
+        "API Testing",
+        "Selenium"
+      ],
+      "address": {
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      },
+      "isPlaced": false
+    },
+    {
+      "id": "102",
+      "name": "Rahul Sharma",
+      "age": 22,
+      "course": "BCA",
+      "branch": "Information Technology",
+      "email": "rahul@example.com",
+      "skills": [
+        "Java",
+        "SQL",
+        "Manual Testing"
+      ],
+      "address": {
+        "city": "Kanpur",
+        "state": "Uttar Pradesh",
+        "country": "India"
+      },
+      "isPlaced": true
+    },
+    {
+      "id": "HB68ROUJCUs",
+      "name": "Sneha Verma",
+      "age": 23,
+      "course": "MCA",
+      "branch": "Software Engineering",
+      "email": "sneha@gmail.com",
+      "phone": "9876512345",
+      "city": "Delhi",
+      "skills": [
+        "Selenium",
+        "Python",
+        "Automation"
+      ],
+      "isPlaced": true
+    },
+    {
+      "id": "nEDOBlwhFsM",
+      "name": "Sneha Verma",
+      "age": 23,
+      "course": "MCA",
+      "branch": "Software Engineering",
+      "email": "sneha@gmail.com",
+      "phone": "9876512345",
+      "city": "Delhi",
+      "skills": [
+        "Selenium",
+        "Python",
+        "Automation"
+      ],
+      "isPlaced": true
+    },
+    {
+      "id": "dFi3zQxvdVE",
+      "name": "Sneha Verma",
+      "age": 23,
+      "course": "MCA",
+      "branch": "Software Engineering",
+      "email": "sneha@gmail.com",
+      "phone": "9876512345",
+      "city": "Delhi",
+      "skills": [
+        "Selenium",
+        "Python",
+        "Automation"
+      ],
+      "isPlaced": true
+    },
+    {
+      "id": "WMkoxNQVwoU",
+      "name": "Sneha Verma",
+      "age": 23,
+      "course": "MCA",
+      "branch": "Software Engineering",
+      "email": "sneha@gmail.com",
+      "phone": "9876512345",
+      "city": "Delhi",
+      "skills": [
+        "Selenium",
+        "Python",
+        "Automation"
+      ],
+      "isPlaced": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
